@@ -1,4 +1,4 @@
-# AICider
+# AICoder
 Static website for AI Coder prototype
 
 
