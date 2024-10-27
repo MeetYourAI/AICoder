@@ -50,7 +50,7 @@ const handleAsk = () => {
         const data = {
             model: "gpt-4",
             messages: [
-                { role: "system", content: "You are the best coder, writing clean, efficient code in a user-friendly manner." },
+                { role: "system", content: "You are the best coder, writing clean, efficient code in a user-friendly manner. Only output the code, without any explanations or additional text." },
                 { role: "user", content: `The question is: ${question}` }
             ]
         };
